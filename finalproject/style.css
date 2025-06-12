@@ -1,0 +1,67 @@
+/* 1. Body: Font family & size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* 2. Header: Background color */
+header {
+  background-color: #f0f0f0;
+}
+
+/* 3. Nav: Background color */
+nav {
+  background-color: #dfe6e9;
+  display: inline-block;
+  width: 80%;
+}
+
+/* 4. Main: Background color & font size */
+main {
+  background-color: #ffffff;
+  font-size: 18px;
+}
+
+/* 5. Footer: Background color */
+footer {
+  background-color: #b2bec3;
+}
+
+/* 6. li: Display & width */
+/* li {
+  margin: 10px;
+  display: inline-block;
+  width: 100px;
+} */
+
+/* 7. h1: Text alignment, font, and color */
+h1 {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  color: #2d3436;
+}
+
+/* 8. p: Line height */
+p {
+  line-height: 1.6;
+}
+
+img {
+    width: 100px;
+}
+
+.skip0link {
+  position: absolute;
+  top: -40px;
+  padding: 8px;
+  left: 0;
+  justify-content: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between;
+}
+.grid img {
+  width: 100%;
+}
